@@ -1,0 +1,13 @@
+
+.image {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+
+    animation:spin 10s linear infinite;
+}
+
+@keyframes spin { 100% {transform:rotate(360deg); } }
